@@ -26,5 +26,13 @@
 		"psr-4": {
 			"Vishwas\\Hideprice\\": ""
 		}
-	}
+	},
+	"extra": {
+        "map": [
+            [
+                "*",
+                "Vishwas/Hideprice"
+            ]
+        ]
+    },
 }
