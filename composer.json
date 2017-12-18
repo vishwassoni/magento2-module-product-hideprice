@@ -27,12 +27,9 @@
 			"Vishwas\\Hideprice\\": "app/code/Vishwas/Hideprice"
 		}
 	},
-	"extra": {
-        "map": [
-            [
-                "*",
-                "Vishwas/Hideprice"
-            ]
-        ]
-    },
+	"repositories": [
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/vishwassoni/magento2-module-product-hideprice"
+	}],
 }
