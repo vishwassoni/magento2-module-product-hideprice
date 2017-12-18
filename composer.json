@@ -1,0 +1,25 @@
+{
+    "name": "vishwassoni/magento2-module-product-hideprice",
+    "description": "Extension allows the store owner to hide the product price and add to cart button from guests or certain customer groups.",
+    "type": "magento2-module",
+	"version": "2.0.3",
+    "authors": [{
+        "name" : "Vishwas Soni",
+        "email": "vksoni2610@gmail.com"
+    }],	
+	"license": [
+		"OSL-3.0"
+	],
+	"require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+		"magento/module-sales": "100.0.*|100.1.*|101.0.*"
+	},
+	"autoload": {
+		"files": [ 
+			"registration.php" 
+		],
+		"psr-4": {
+			"Vishwas\\Hideprice\\": ""
+		}
+	}
+}
