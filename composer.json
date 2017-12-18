@@ -33,8 +33,5 @@
             "type": "git",
             "url": "https://github.com/vishwassoni/magento2-module-product-hideprice.git"
         }
-    },
-    "extra": {
-        "magento-force": "override"
     }
 }
