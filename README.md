@@ -13,7 +13,8 @@ Extension allows the store owner to hide the product price and add to cart butto
 2. Enter following commands to install module:
 
     ```bash
-    composer require vishwassoni/magento2-module-product-hideprice
+    composer config repositories.hideprices git https://github.com/vishwassoni/magento2-module-product-hideprice.git
+    composer require vishwassoni/magento2-module-product-hideprice:dev-master
     ```
    Wait while dependencies are updated.
 
