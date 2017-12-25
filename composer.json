@@ -1,37 +1,22 @@
 {
-    "name": "vishwassoni/magento2-module-product-hideprice",
-    "description": "Extension allows the store owner to hide the product price and add to cart button from guests or certain customer groups.",
-    "type": "magento2-module",
-	"version": "1.0.0",
-    "authors": [{
-        "name" : "Vishwas Soni",
-        "email": "vksoni2610@gmail.com"
-    }],	
-	"license": [
-		"OSL-3.0"
-	],
-	"authors": [
-        {
-          "name": "Vishwas Soni",
-          "email": "vksoni2610@gmail.com"
-        }
+  "name": "vishwassoni/magento2-module-product-hideprice",
+  "description": "Extension allows the store owner to hide the product price and add to cart button from guests or certain customer groups.",
+  "require": {
+    "magento/module-store": ">100.0",
+    "magento/module-backend": ">100.0",
+    "magento/framework": ">100.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
     ],
-	"require": {
-		"php": "~5.5.0|~5.6.0|~7.0.0"
-	},
-	"autoload": {
-		"files": [ 
-			"registration.php" 
-		],
-		"psr-4": {
-			"Vishwas\\Hideprice\\": "app/code/Vishwas/Hideprice"
-		}
-	},
-	"minimum-stability": "stable",
-    "repositories": {
-        "hideprice": {
-            "type": "git",
-            "url": "https://github.com/vishwassoni/magento2-module-product-hideprice.git"
-        }
+    "psr-4": {
+        "Vishwas\\Hideprice\\": ""
     }
+  }
 }
